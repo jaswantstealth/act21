@@ -1,0 +1,152 @@
+$primary-color: #0d8b92;
+$primary-color-hover: #0c9199;
+$scendory-color: #f6c543;
+$scendory-color2: #E3B243;
+$grey-color: #727272;
+$dark_green: #2b454e;
+$black: #000;
+$white_color: #fff;
+$bg_light: #f7f7f7;
+$accordian_color:#488488;
+
+.yellowColor{
+  color: $scendory-color2 !important;
+}
+.yellowBgColor{
+  background-color: $scendory-color2 !important;
+}
+.section_padding50 {
+  padding: 30px 0px;
+  @media (min-width: 767px) {
+    padding: 50px 0;
+  }
+}
+.section_padding70 {
+  padding: 36px 0px;
+  @media (min-width: 767px) {
+    padding: 70px 0;
+  }
+}
+img.img-fluid.border-img {
+  border: 3px Solid #0b6868;
+}
+h2 {
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 20px;
+}
+h3{
+  font-size: 20px;
+}
+h4 {
+  font-size: 20px;
+}
+h5{
+  font-size: 22px;
+  // text-align: center;
+  font-weight: 600;
+
+}
+
+h6{
+  font-size: 22px;
+ 
+}
+p{font-size: 16px;}
+.f_50 {
+  font-size: 22px;
+}
+@media (min-width: 580px) {
+  h3{
+    font-size: 32px;
+  }
+}
+@media (min-width: 767px) {
+  .f_50 {
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+  h3{
+    font-size: 52px;
+  }
+  h4 {
+    font-size: 26px;
+  }
+  h5{
+    font-size: 38px;
+  }
+  h6{font-size: 22px;
+
+  }
+}
+
+
+.bg-white{
+  background-color: $white_color;
+}
+.btn_hover{
+  &:hover{
+    color: $black;
+  }
+}
+
+
+
+// tilelinecss
+
+.wrapper {
+ 
+  margin: 0 auto;
+  padding: 0 16.66% 50px;
+  width: 100%;
+}
+
+.timeline_sec{
+  position: relative;
+  overflow: scroll;
+  max-height: 300px;
+  margin: 0 auto;
+}
+.timeline {
+  position: relative;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+.wraper_outer{
+  height: 200px;
+  overflow: hidden;
+}
+.timeline__nav {
+  position: sticky;
+  z-index: 99;
+  top: 50%;
+  transition: top 0.3s ease-out;
+  max-width: 80px;
+}
+.timeline__nav ul {
+  list-style: none;
+  list-style-position: inside;
+  margin: 15px 0;
+}
+.timeline__nav ul li {
+  margin: 15px 0;
+  padding-left: 0;
+  list-style-type: none;
+  color: #bfc1c3;
+  border-bottom: 1px dotted rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.timeline__nav ul li.active {
+  font-weight: bold;
+  color: #f94125;
+  border-bottom: 1px dotted transparent;
+  transform: scale(1.2);
+}
+.timeline__nav ul li:hover {
+  color: #000;
+}
