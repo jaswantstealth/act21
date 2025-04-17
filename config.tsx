@@ -1,6 +1,6 @@
 import axios from 'axios';
 
- export const BASE_URL = "http://192.168.1.200:1337"; // local_url
+ export const BASE_URL = "http://192.168.1.5:1337"; // local_url
 // export const BASE_URL = "https://www.act21.io/server";
 //export const BASE_URL = "https://act21.cloudstalwarts.com/server/"
 
